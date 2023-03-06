@@ -1,0 +1,83 @@
+.intro {
+    color: red;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1595880144683-5280daac74e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsdWUlMjBiZWFjaHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.centor {
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 35%;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid rgb(1, 14, 19);
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.list::before {
+    list-style: none;
+}
+
+.list a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list li {
+    float: left;
+    text-align: justify;
+}
+
+.list li a {
+    border-right: 2px solid black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list li a:hover {
+    color: blue;
+    background-color: #00ff4c94;
+}
+
+#museum_pic {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+#theatre_pic {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+#catacomb_pic {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+p {
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+.horizontal_line {
+    background-color: green;
+    height: 5px;
+}

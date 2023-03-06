@@ -1,0 +1,91 @@
+#colosseum_pic {
+    width: 370px;
+    height: 200px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+#basilica_pic {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+#pantheon_pic {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+#square_pic {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+p {
+    font-size: 24px;
+    text-indent: 20px;
+    color: black;
+}
+
+.centor {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://st4.depositphotos.com/18413794/24464/v/600/depositphotos_244646646-stock-illustration-flag-of-italian-vector-ratios.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.rome_horizontal {
+    height: 5px;
+    background-color: green;
+}
+
+.intro {
+    color: red;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 35%;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid rgb(1, 14, 19);
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.list::before {
+    list-style: none;
+}
+
+.list a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list li {
+    float: left;
+    text-align: justify;
+}
+
+.list li a {
+    border-right: 2px solid black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list li a:hover {
+    color: blue;
+    background-color: #00ff4c94;
+}

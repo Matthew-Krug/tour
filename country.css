@@ -1,0 +1,140 @@
+body {
+    background-image: url("https://freedesignfile.com/upload/2016/04/Italy-travel-background-art-vector-04.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.florencebody {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/533/463/577/abstract-texture-simple-simple-background-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.intro {
+    color: red;
+    text-align: center;
+}
+
+.intro2 {
+    margin-left: 150px;
+    color: red;
+    text-align: center;
+}
+
+.titleleft {
+    margin-left: 15px;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 35%;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid rgb(1, 14, 19);
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.list::before {
+    list-style: none;
+}
+
+.list a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list li {
+    float: left;
+    text-align: justify;
+}
+
+.list li a {
+    border-right: 2px solid black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list li a:hover {
+    color: blue;
+    background-color: #00ff4c94;
+}
+
+.img {
+    margin-left: 200px;
+    height: 350px;
+    width: 350px;
+}
+
+.capital {
+    margin-left: 200px;
+    width: fit-content;
+    background-color: rgb(173, 184, 196);
+}
+
+.info {
+    float: right;
+    width: 400px;
+    height: 350px;
+    margin-right: 620px;
+    word-spacing: 4px;
+    background-color: rgb(173, 184, 196);
+}
+
+.offer {
+    float: right;
+    width: 400px;
+    height: 350px;
+    margin-top: -354px;
+    margin-right: 120px;
+    word-spacing: 4px;
+    background-color: rgb(173, 184, 196);
+}
+
+.pic1 {
+    width: 400px;
+    height: 250px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+.pic2 {
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+.rightside {
+    margin-left: 85%;
+    width: fit-content;
+    text-align: right;
+}
+
+.rightside2 {
+    margin-left: 92%;
+    width: fit-content;
+    text-align: right;
+}
+
+.titleleft {
+    width: fit-content;
+}
+
+.florencebody p,
+h2 {
+    color: gold;
+    font-size: 24px;
+}

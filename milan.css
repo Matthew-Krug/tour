@@ -1,0 +1,90 @@
+#first_pic {
+    width: 370px;
+    height: 200px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+p {
+    font-size: 24px;
+    text-indent: 20px;
+    color: yellow;
+}
+
+h1,
+h2,
+h3 {
+    color: yellow;
+}
+
+.centor {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/542/50/545/simple-background-blue-simple-minimalism-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#second_pic {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+#third_pic {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+.first_line {
+    height: 5px;
+    background-color: red;
+}
+
+.intro {
+    color: red;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 35%;
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid rgb(1, 14, 19);
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.list::before {
+    list-style: none;
+}
+
+.list a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.list li {
+    float: left;
+    text-align: justify;
+}
+
+.list li a {
+    border-right: 2px solid black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.list li a:hover {
+    color: blue;
+    background-color: #00ff4c94;
+}

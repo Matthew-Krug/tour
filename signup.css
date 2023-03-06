@@ -1,0 +1,193 @@
+.flag {
+    width: 1250px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.italy-flag {
+    width: 100%;
+    padding-bottom: 100.667%;
+    background-color: #F1F2F1;
+    position: relative;
+    margin: 0;
+}
+
+.italy-flag::before {
+    content: ' ';
+    position: absolute;
+    background-color: #009246;
+    width: 15.33%;
+    height: 100%;
+}
+
+.italy-flag::after {
+    content: ' ';
+    position: absolute;
+    background-color: #CE2B37;
+    width: 15.33%;
+    height: 100%;
+    right: 0;
+}
+
+#main_heading {
+    font-family: 'Brush Script MT', cursive;
+    position: absolute;
+    top: -40px;
+    left: 400px;
+    font-size: 30px;
+    text-align: center;
+    color: green;
+}
+
+#position {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+#position_second {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+
+#position_third {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+#position_fourth {
+    position: absolute;
+    top: 150px;
+    left: 640px;
+}
+
+#position_fifth {
+    position: absolute;
+    top: 200px;
+    left: 258px;
+}
+
+#position_sixth {
+    position: absolute;
+    top: 200px;
+    left: 648px;
+}
+
+#position_seventh {
+    position: absolute;
+    top: 250px;
+    left: 230px;
+}
+
+#position_eight {
+    position: absolute;
+    top: 250px;
+    left: 625px;
+}
+
+#position_ninth {
+    position: absolute;
+    top: 370px;
+    left: 225px;
+}
+
+#position_tenth {
+    position: absolute;
+    top: 370px;
+    left: 600px;
+}
+
+#air_position {
+    position: absolute;
+    top: 400px;
+    left: 225px;
+}
+
+#position_eleven {
+    position: absolute;
+    top: 420px;
+    left: 345px;
+}
+
+#submitbutton {
+    position: absolute;
+    top: 440px;
+    left: 320px;
+}
+
+#personalinfo {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+body {
+    font-size: 20px;
+    color: red;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.half_line {
+    position: absolute;
+    background-color: gray;
+    height: 5px;
+    width: 50%;
+    top: 300px;
+    left: 300px;
+}
+
+input[type=submit] {
+    background-color: greenyellow;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#second_heading {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.fourth {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+table.fourth {
+    border: 1.5px solid;
+}
+
+.fourth td {
+    border: 1.5px solid;
+}
+
+.fourth tr:nth-child(even) {
+    background-color: rgba(39, 211, 188, 0.884);
+}
+
+.fourth tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.fourth th {
+    background-color: lightgreen;
+}
+
+.fourth {
+    position: absolute;
+    top: 600px;
+    left: 230px;
+    width: 800px;
+    height: 400px;
+}

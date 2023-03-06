@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="Keywords" content="Tour Package Registration" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/signup.css" />
+    <title>Signup Form</title>
+</head>
+
+<body>
+    <div class="flag">
+        <section role="region" aria-hidden="true" class="italy-flag">
+        </section>
+    </div>
+
+    <div id="main_heading">
+        <h1>Tour Package Registration</h1>
+    </div>
+    <div id="personalinfo">
+        <h3><u>Personal Information</u></h3>
+    </div>
+    <form method="post" action="/">
+        <div class="customer">
+            <div id="position"><label>Name:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" style="font-size:15pt;" name="name" placeholder="First" required></div>
+            <div id="position_second"><label></label><input type="text" style="font-size:15pt;" name="name" placeholder="Last" required></div>
+            <div id="position_third"><label>Street:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" style="font-size:15pt;" name="name" placeholder="2330 Tetris Road" required></div>
+            <div id="position_fourth"><label>City:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" style="font-size:15pt;" name="name" placeholder="Richmond" required> </div>
+            <div id="position_fifth"><label>State:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" style="font-size:15pt;" name="name" placeholder="Virginia" required></div>
+            <div id="position_sixth"><label>Zip:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" style="font-size:15pt;" name="name" placeholder="23294" required></div>
+            <div id="position_seventh"><label for="phone">Contact:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="tel" style="font-size:15pt;" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            </div>
+            <div id="position_eight"><label>Email:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" style="font-size:15pt;" name="name" placeholder="example@gmail.com" required></div>
+
+
+
+        </div>
+        <hr class="half_line">
+        <div id="second_heading">
+            <h3><u>Tour Information</u></h3>
+        </div>
+        <div id="position_ninth"><label>Trip Date:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="date" style="font-size:15pt; width: 244px;" name="date" required></div>
+        <div id="position_tenth"><label for="cars">Number of People</label>
+            <select id="people" style="font-size:15pt; width:185px" name="peoplelist" form="">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select></div>
+        <div id="air_position">
+            <p>Airline Travel: </p>
+        </div>
+        <div id="position_eleven"><input type="radio" id="child" name="age" value="child">
+            <label for="child">Yes</label>
+            <input type="radio" id="adult" name="age" value="adult">
+            <label for="adult">No</label><br>
+        </div>
+        <div id="submitbutton">
+            <input type="submit" value="Submit">
+        </div>
+
+
+        <table class="fourth">
+            <tr>
+                <th colspan="6">Popular Italian Hotels</th>
+            </tr>
+
+
+            <div id="widthincrease">
+                <tr>
+                    <td></td>
+                    <td>City</td>
+                    <td>Description</td>
+                    <td>Price</td>
+                    <td>Contact</td>
+
+
+                </tr>
+            </div>
+            <tr>
+                <td>Napoleon Hotel Roma</td>
+                <td>Florence</td>
+                <td>Charming, elegant and very quiet 4-star hotel in the heart of Rome. The hotel welcomes its guests with spacious and comfortable lounges enriched by quality antique furnishings that offer a pleasant and relaxing atmosphere.</td>
+                <td>$100 Per Night</td>
+                <td>8734-282-9912</td>
+
+            </tr>
+            <tr>
+                <td>Hotel Artemide</td>
+                <td>Naples</td>
+                <td>19th-century building on the vibrant Via Nazionale. A free minibar and free Wi-Fi access are available in each of the elegant rooms.</td>
+                <td>$125 Per Night</td>
+                <td>8712-291-1517</td>
+
+            </tr>
+            <tr>
+                <td>Hotel Moresco</td>
+                <td>Venice</td>
+                <td> 23-room boutique on a small canal near Venice's bus terminal. The tranquil bar with library and fireplace provides a welcoming setting</td>
+                <td>$85 Per Night</td>
+                <td>8725-804-2694</td>
+
+            </tr>
+            <tr>
+                <td>Hotel Antiche Figure</td>
+                <td>Rome</td>
+                <td> beautiful XV century building overlooking the Grand Canal, very close to the main entrances of the city</td>
+                <td>$200 Per Night</td>
+                <td>8722-551-9910</td>
+
+            </tr>
+
+
+        </table>
+        <br/>
+        <br/>
+
+
+</body>
+
+</html>
